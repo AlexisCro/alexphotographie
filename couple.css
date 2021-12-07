@@ -1,0 +1,84 @@
+@keyframes fadein{
+    From{
+        opacity:0;
+    }
+    To{
+        opacity:1;
+    }
+}
+
+body{
+    background-color:#fcfcf7;
+    margin:0 auto;
+    width:100%;
+}
+
+header{
+    display: block;
+    width:100%;
+    height:250px;
+    margin: 4px;
+    font-family: brush script MT, freestyle script, harlow solid italic;
+    text-align: center;
+}
+
+.entete{
+    font-size: 60px;
+    opacity:0;
+    animation-name:fadein;
+    animation-duration: 1.2s;
+    animation-delay: 0.2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+.menu{
+    border-top-width:1px;
+    margin-left:20px;
+    margin-right:20px;
+    border-top-style:solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding: 4px;
+}
+
+.choice{
+    font-size: 25px;
+    font-family: brush script MT, freestyle script, harlow solid italic;
+    padding-right: 5%;
+    padding-left:5%;
+    text-decoration:none;
+    color:black;
+    cursor: pointer;
+}
+.choice:hover{
+    color:#ffe4c4;
+    transition: all 0.2s ease-in;
+}
+
+.title{
+    opacity:0;
+    text-align:center;
+    text-decoration:underline;
+    font-size: 45px;
+    font-family: brush script MT, freestyle script, harlow solid italic;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+#main{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+img{
+    padding:5px;
+}

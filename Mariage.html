@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Alexphotographie - Mariage</title>
+            <link rel="stylesheet" href="mariage.css">
+        </head>
+        <body>
+            <header>
+            <!-- En-tête -->
+
+            <h1 class="entete">Alexis Crozier<br/>Photographe</h1>
+
+            <!-- Menu -->
+                <div class="menu">
+                    <a href="Accueil.html" class="choice">Accueil</a>
+                    <a href="Mariage.html" class="choice">Mariage</a>
+                    <a  href="Portfolio.html"class="choice">Portfolio</a>
+                    <a  href="Avis.html"class="choice">Avis</a>
+                    <a  href="A_propos.html"class="choice">A propos</a>
+                </div>
+            </header>
+            
+            <!-- Titre -->
+                <p class="title">Mariage</p>
+
+            <!-- Slogan -->
+                <p class="slogan">Un regard de passion <br/> au service de vos plus grandes émotions</p>
+            
+            <!-- Photos -->
+            <div class="box">
+                <img src=".\images\Arlette & Marc-181.jpg" class="img1 apparition"/>
+            </div>
+            
+            <!-- Mots clefs -->
+            <p class="motscle">Simplicité Authenticité Douceur Lumineux</p>
+
+            <!-- Textes -->
+                <div class="bloctxt">
+                    <p class="txt">Je vous propose de couvrir l'un des plus beaux jours de votre vie, l'un des plus forts en émotion.<br/>
+                    ​<br/>
+                    <img src=".\images\2021-05-29 mariage amélie nassim-145.jpg" class="imgtxt2 apparition"/>
+                    Ce jour  qui offre des souvenirs inoubliables, des sourires radieux, des larmes de joies immenses et encore d'autres 
+                    émotions plus grandes les unes que les autres, entourés des personnes que l'on aime le plus.<br/>
+                    Je vous propose de photographier chacune de ces émotions afin que vous puissiez vous les remémorer dès que vous le souhaitez.<br/>
+                    Je souhaite mettre ma passion de la photographie au service de vos émotions pour que vos moments soient inoubliables et aussi forts qu'au premier instant.<br/>
+                    ​<br/>
+                    Un mariage ce sont des moments naturels sous une lumière naturelle. Habitué de la lumière naturelle, je suis en capacité de m'adapter à elle afin de rendre les meilleures photographies.
+                    ​<br/>
+                    Pour ce jour inoubliable je ne vous propose pas un système de forfait pré-construit mais un système à la carte afin que vous composiez vous-même la prestation qui vous convient, selon vos désirs.
+                    Pour cela, je mets à votre disposition la plaquette des différentes prestations que vous pouvez choisir et les tarifs  correspondants. </p>
+                
+
+            <!-- Images txt -->
+                    <img src=".\images\Arlette & Marc-180.jpg" class="imgtxt1 apparition"/>
+                    
+                </div>
+            <!-- Tarifs -->
+                <a href="Tarifs.html" class="logoprice" target="_blank">
+                    <p class="price">Tarifs</p>
+                </a>
+
+            <!-- Formulaire de contact -->
+            <form action="Mail.php" method="post" class="form">
+                <label for="prenom">Prenom :</label>
+                <input type="text" class="input" id="prenom" name="prenom" required>
+                <br/>
+                <label for="nom">Nom : </label>
+                <input type="text" class="input" id="nom" name="nom" required>
+                <br/>
+                <label for="mail">Mail :</label>
+                <input type="mail" id="mail" name="mail" required>
+                <br/>
+                <textarea id="msg" class="msg" name="msg" placeholder="Votre message" required></textarea>
+                <br/>
+                <button type="submit">Envoyer</button>
+            </form>
+
+        <script src="mariage.js"></script>
+        </body>
+    </html>

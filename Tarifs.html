@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Alexphotographie-tarifs</title>
+            <link rel="stylesheet" href="tarifs.css">
+        </head>
+        <body>
+        <header>
+            <!-- En-tête -->
+
+            <h1 class="entete">Alexis Crozier<br/>Photographe</h1>
+
+            <h2>Prestations à la carte</h2>
+
+            <img src=".\images\Tarifs\Photographe mariage portfolio.jpg" class="photoheader">
+
+        </header>
+
+            <!-- Explactions -->
+            <p class="explication">Explications :</p>
+            <p class="explicationtxt">Bonjour, <br/>
+            Je vous propose un système de prix à la carte.<br/>
+            Un peu à l'image des restaurants vous choisissez ce qui vous convient<br/>
+            et cela vous construis votre prestation. 
+            <br/>
+            <br/>
+            Attention tout de même, si vous prenez une partie de prestation 
+            se déroulant au début de votre évènement puis seulement un prestation 
+            se déroulant à la fin de votre évènement un surplus sera nécessaire. <br/>
+            <br/>
+            Par exemple : <br/>
+            Si vous prenez la prestation cérémonie laïque puis la prestation soirée je serais présent durant tout votre 
+            évènement même si vous ne voulez pas les photos du cocktail par exemple. <br/>
+            Dans ce cas un surplus de tarif sera appliqué. </p>
+
+            <!-- Tableau des tarifs -->
+
+            <p class="tableautitre">Voici le tableau des prestations</p>
+
+            <table>
+                <tr> 
+                    <th>Prestation</th>
+                    <th>Prix</th>
+                </tr>
+                <tr>
+                    <td>Cérémonie mairie</td>
+                    <td>220€</td>
+                </tr>
+                <tr>
+                    <td>Cérémonie église / laïque</td>
+                    <td>220€</td>
+                </tr>
+                <tr>
+                    <td>Cérémonie mairie et église / laïque</td>
+                    <td>350€</td>
+                </tr>
+                <tr>
+                    <td>Photos couple</td>
+                    <td>200€</td>
+                </tr>
+                <tr>
+                    <td>Photos de groupes</td>
+                    <td>270€</td>
+                </tr>
+                <tr>
+                    <td>Cocktail / Vin d'honneur</td>
+                    <td>220€</td>
+                </tr>
+                <tr>
+                    <td>Préparatifs mariés</td>
+                    <td>250€</td>
+                </tr>
+                <tr>
+                    <td>Soirée</td>
+                    <td>350€</td>
+                </tr>
+                <tr>
+                    <td>Séances engagement</td>
+                    <td>250€</td>
+                </tr>
+            </table>
+
+            <!-- Photos -->
+            <div class="photos">
+                <img src=".\images\Tarifs\Alice & Max-4.jpg">
+                <img src=".\images\Tarifs\Alice & Max-25.jpg">
+                <img src=".\images\Tarifs\Capucine & David -75.jpg">
+            </div>
+
+
+            <!-- Devis manuel -->
+            <p class="explication">Faite votre devis</p>
+            <p class="explicationtxt">Je vous propose de vous réaliser vous 
+                même un petit aperçu de votre devis et surtout un aperçu du tarif
+                de votre prestation.<br/>
+                Pour cela il vous suffit de sélectionner dans les différentes listes
+                déroulantes ci-dessous les prestations puis de cliquez sur le bouton 
+                "Calculer ma prestation" pour que le total estimé s'affiche.<br/>
+                <br/>
+                Attention : le prix donné par le calcul reste approximatif et 
+                n'inclus donc pas les déplacements.</p>
+
+            <div id="devis">
+                <p>Choisissez vos prestations : </p>
+                <div class="ldc">
+                <select id="first">
+                    <option value="none"></option>
+                    <option value="1">Prestation : Cérémonie mairie</option>
+                    <option value="2">Prestation : Cérémonie église / laïque</option>
+                    <option value="3">Prestation : Cérémonie mairie et église / laïque</option>
+                    <option value="4">Prestation : Photos de couples</option>
+                    <option value="5">Prestation : Photos de groupe</option>
+                    <option value="6">Prestation : Cocktail / Vin d'honneur</option>
+                    <option value="7">Prestation : Préparatifs mariés</option>
+                    <option value="8">Prestation : Soirée</option>
+                    <option value="9">Prestation : Séance engagement</option>
+                    <option value="10">Prestation : Total</option>                    
+                </select>
+               
+                <select id="second">
+                    <option value="none"></option>
+                    <option value="1">Prestation : Cérémonie mairie</option>
+                    <option value="2">Prestation : Cérémonie église / laïque</option>
+                    <option value="3">Prestation : Cérémonie mairie et église / laïque</option>
+                    <option value="4">Prestation : Photos de couples</option>
+                    <option value="5">Prestation : Photos de groupe</option>
+                    <option value="6">Prestation : Cocktail / Vin d'honneur</option>
+                    <option value="7">Prestation : Préparatifs mariés</option>
+                    <option value="8">Prestation : Soirée</option>
+                    <option value="9">Prestation : Séance engagement</option>
+                    <option value="10">Prestation : Total</option>                      
+                </select>
+
+                <select id="three">
+                    <option value="none"></option>
+                    <option value="1">Prestation : Cérémonie mairie</option>
+                    <option value="2">Prestation : Cérémonie église / laïque</option>
+                    <option value="3">Prestation : Cérémonie mairie et église / laïque</option>
+                    <option value="4">Prestation : Photos de couples</option>
+                    <option value="5">Prestation : Photos de groupe</option>
+                    <option value="6">Prestation : Cocktail / Vin d'honneur</option>
+                    <option value="7">Prestation : Préparatifs mariés</option>
+                    <option value="8">Prestation : Soirée</option>
+                    <option value="9">Prestation : Séance engagement</option>
+                    <option value="10">Prestation : Total</option>                     
+                </select>
+
+                <select id="four">
+                    <option value="none"></option>
+                    <option value="1">Prestation : Cérémonie mairie</option>
+                    <option value="2">Prestation : Cérémonie église / laïque</option>
+                    <option value="3">Prestation : Cérémonie mairie et église / laïque</option>
+                    <option value="4">Prestation : Photos de couples</option>
+                    <option value="5">Prestation : Photos de groupe</option>
+                    <option value="6">Prestation : Cocktail / Vin d'honneur</option>
+                    <option value="7">Prestation : Préparatifs mariés</option>
+                    <option value="8">Prestation : Soirée</option>
+                    <option value="9">Prestation : Séance engagement</option>
+                    <option value="10">Prestation : Total</option>                     
+                </select>
+
+                <select id="five">
+                    <option value="none"></option>
+                    <option value="1">Prestation : Cérémonie mairie</option>
+                    <option value="2">Prestation : Cérémonie église / laïque</option>
+                    <option value="3">Prestation : Cérémonie mairie et église / laïque</option>
+                    <option value="4">Prestation : Photos de couples</option>
+                    <option value="5">Prestation : Photos de groupe</option>
+                    <option value="6">Prestation : Cocktail / Vin d'honneur</option>
+                    <option value="7">Prestation : Préparatifs mariés</option>
+                    <option value="8">Prestation : Soirée</option>
+                    <option value="9">Prestation : Séance engagement</option>
+                    <option value="10">Prestation : Total</option>                     
+                </select>
+
+                <select id="six">
+                    <option value="none"></option>
+                    <option value="1">Prestation : Cérémonie mairie</option>
+                    <option value="2">Prestation : Cérémonie église / laïque</option>
+                    <option value="3">Prestation : Cérémonie mairie et église / laïque</option>
+                    <option value="4">Prestation : Photos de couples</option>
+                    <option value="5">Prestation : Photos de groupe</option>
+                    <option value="6">Prestation : Cocktail / Vin d'honneur</option>
+                    <option value="7">Prestation : Préparatifs mariés</option>
+                    <option value="8">Prestation : Soirée</option>
+                    <option value="9">Prestation : Séance engagement</option>
+                    <option value="10">Prestation : Total</option>                     
+                </select>
+
+                <select id="seven">
+                    <option value="none"></option>
+                    <option value="1">Prestation : Cérémonie mairie</option>
+                    <option value="2">Prestation : Cérémonie église / laïque</option>
+                    <option value="3">Prestation : Cérémonie mairie et église / laïque</option>
+                    <option value="4">Prestation : Photos de couples</option>
+                    <option value="5">Prestation : Photos de groupe</option>
+                    <option value="6">Prestation : Cocktail / Vin d'honneur</option>
+                    <option value="7">Prestation : Préparatifs mariés</option>
+                    <option value="8">Prestation : Soirée</option>
+                    <option value="9">Prestation : Séance engagement</option>
+                    <option value="10">Prestation : Total</option>                     
+                </select>
+
+                <select id="height">
+                    <option value="none"></option>
+                    <option value="1">Prestation : Cérémonie mairie</option>
+                    <option value="2">Prestation : Cérémonie église / laïque</option>
+                    <option value="3">Prestation : Cérémonie mairie et église / laïque</option>
+                    <option value="4">Prestation : Photos de couples</option>
+                    <option value="5">Prestation : Photos de groupe</option>
+                    <option value="6">Prestation : Cocktail / Vin d'honneur</option>
+                    <option value="7">Prestation : Préparatifs mariés</option>
+                    <option value="8">Prestation : Soirée</option>
+                    <option value="9">Prestation : Séance engagement</option>
+                    <option value="10">Prestation : Total</option>                     
+                </select>
+
+                <select id="nine">
+                    <option value="none"></option>
+                    <option value="1">Prestation : Cérémonie mairie</option>
+                    <option value="2">Prestation : Cérémonie église / laïque</option>
+                    <option value="3">Prestation : Cérémonie mairie et église / laïque</option>
+                    <option value="4">Prestation : Photos de couples</option>
+                    <option value="5">Prestation : Photos de groupe</option>
+                    <option value="6">Prestation : Cocktail / Vin d'honneur</option>
+                    <option value="7">Prestation : Préparatifs mariés</option>
+                    <option value="8">Prestation : Soirée</option>
+                    <option value="9">Prestation : Séance engagement</option>
+                    <option value="10">Prestation : Total</option>                     
+                </select>
+            </div>
+                <button class="bouton-ldc" type="button">Calculer ma prestation</button>
+
+                <div class="res">
+                </div>
+            </div>
+
+            <p class="explication">Les tirages</p>
+            <p class="explicationtxt">Je vous propose également la réalisation de tirages. <br/>
+            Les tirages sont réalisé par un laboratoire photo professionnel par lequel j'ai l'habitude de passé.<br/>
+            Je connais ainsi la qualité des produits ainsi que le service après-vente.</p>
+
+            <script src="tarifs.js"></script>
+            </body>
+        </html>
+
+
+            
+            
