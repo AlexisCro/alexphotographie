@@ -124,3 +124,10 @@ header{
     transform:translateX(-50%);
     margin-bottom:4%;
 }
+
+/*Responsive design*/
+@media screen and (max-width: 724px) and (min-width: 573px){
+    .menu .choice:last-child{
+        display:block;
+    }
+}
