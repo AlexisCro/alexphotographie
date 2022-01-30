@@ -218,3 +218,20 @@ button:hover{
         left:100%;
     }
 }
+
+/*Responsive design*/
+@media screen and (max-width: 724px) and (min-width: 573px){
+    .menu .choice:last-child{
+        display:block;
+    }
+}
+
+@media screen and (max-width:1166px){
+    .imgtxt2{
+        width:35%;
+    }
+    .imgtxt1{
+        width:37%;
+        left:100%;
+    }
+}
