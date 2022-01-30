@@ -188,3 +188,11 @@ select{
 .visible{
     opacity:1;
 }
+
+/*Responsive design*/
+@media screen and (max-width: 724px) and (min-width: 573px){
+    .menu .choice:last-child{
+        display:block;
+    }
+}
+
