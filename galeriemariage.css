@@ -82,3 +82,10 @@ header{
 img{
     padding:5px;
 }
+
+/*Responsive design*/
+@media screen and (max-width: 724px) and (min-width: 573px){
+    .menu .choice:last-child{
+        display:block;
+    }
+}
